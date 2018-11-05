@@ -40,7 +40,7 @@
      npm i
      mocha integrationTests.js
      
-![Test Results](/testApp/tests.png?raw=true "Test Results")
+![Test Results](/testApps/tests.png?raw=true "Test Results")
 
     
 
