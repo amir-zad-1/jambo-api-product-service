@@ -19,11 +19,11 @@
         2.1 [POST]=> Deletes all data and resets the service.
      
      3. http://localhost:8080/products
-        4.1 [GET] => Returns all products.
-        4.2 [GET]/[productid] => Returns a product with the given id.
-        4.3 [POST] => Adds a new product according to the rules.
-        4.4 [PUT] => Updates the given product according to the rules.
-        4.5 [DELETE] => Removes a product with the given id.
+        3.1 [GET] => Returns all products.
+        3.2 [GET]/[productid] => Returns a product with the given id.
+        3.3 [POST] => Adds a new product according to the rules.
+        3.4 [PUT] => Updates the given product according to the rules.
+        3.5 [DELETE] => Removes a product with the given id.
 
 #### Run the Project
     cd [root directory of repository]
