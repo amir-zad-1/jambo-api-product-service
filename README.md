@@ -1,4 +1,4 @@
-# Volcano REST-API Service 
+# Jambo Product REST-API Service
 
 ### Technologies:
 **API:**
@@ -18,15 +18,12 @@
      2. http://localhost:8080/reset 
         2.1 [POST]=> Deletes all data and resets the service.
      
-     3. http://localhost:8080/reservations/availabledates
-        3.1 [GET] => Returns all available dates.
-     
-     4. http://localhost:8080/reservations
-        4.1 [GET] => Returns all reservations.
-        4.2 [GET]/[reservationid] => Returns the reservation with the given id.
-        4.3 [POST] => Makes a new reservation according to the rules.
-        4.4 [PUT] => Updates a new reservation according to the rules.
-        4.5 [DELETE] => Cancels the reservation with the given id.
+     3. http://localhost:8080/products
+        4.1 [GET] => Returns all products.
+        4.2 [GET]/[productid] => Returns a product with the given id.
+        4.3 [POST] => Adds a new product according to the rules.
+        4.4 [PUT] => Updates the given product according to the rules.
+        4.5 [DELETE] => Removes a product with the given id.
 
 #### Run the Project
     cd [root directory of repository]
